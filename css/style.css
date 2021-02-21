@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+  color: white;
+  background-color: #0e1418;
+  font-family: Manrope, sans-serif !important;
+  font-size: 1.10rem;
+  font-weight: 500;
+}
+
+a {
+  color: #5082e5;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #5990ff;
+  font-weight: bold;
+}
+
+::selection {
+  background: #2c487f;
+}
+
+.bg-dark {
+  background-color: #14191c !important;
+}
+
+.card {
+  border-left: solid 4px #5082e5;
+}
+
+.btn-secondary {
+  background-color: #1d2429 !important;
+  border-color: #1d2429 !important;
+}
+
+hr {
+  border-top: 5px solid #14191C;
+  border-radius: 5px;
+}
+
+#container {
+  perspective: 25px;
+}
+
+#inner {
+  transition: transform 0.5s;
+  width: auto;
+  height: auto;
+}
+
+.btn-custom {
+  background-color: #21292e;
+  padding: 10px 22px;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+
+}
+
+.bogatijebem {
+  background-color: #21292e;
+  padding: 10px 23px;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.text-xs {
+  font-size: .8rem;
+}
+
+.text-sm {
+  font-size: 1rem;
+}
+
+.text-lg {
+  font-size: 1.8rem;
+}
+
+.text-xl {
+  font-size: 2.5rem;
+}
+
+.text-2xl {
+  font-size: 2.8rem;
+}
+
+.text-3xl {
+  font-size: 3rem;
+}
+
+.text-4xl {
+  font-size: 3.8rem;
+}
+
+.text-5xl {
+  font-size: 4rem;
+}
+
+.navbar-nav {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.feature-card {
+  transform: scale(1);
+  transition: transform 0.15s;
+}
+
+.feature-card:hover {
+  transform: scale(1.20);
+  transition: transform 0.15s;
+}
